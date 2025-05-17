@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="menu.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <title>Loja Fisher Mania</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo-container">
+        <img src="Logo Fisher Mania.png" alt="Peixe">
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Produtos</a></li>
+        <li><a href="#">Categorias</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+      <div class="icons">
+        <span>🔍</span>
+        <span>🛒</span>
+      </div>
+      <span class="menu-toggle" id="menuToggle">☰</span>
+    </nav>
+  </header>
+
+  <section class="banner">
+    <div>
+      <h1>Bem-Vindo à Loja de Pesca Fisher Mania</h1>
+      <p>Produtos de qualidade para a sua pescaria</p>
+    </div>
+  </section>
+
+  <main>
+    <h2 class="section-title">Produtos em Destaque</h2>
+    <div class="products">
+      <div class="product-card">
+        <img src="varas/preta.png" alt="Vara de Pesca">
+        <h3><a href="vara.html">Vara de Pesca</a></h3>
+        <p>Alta resistência para grandes desafios.</p>
+      </div>
+      <div class="product-card">
+        <img src="kit isca.jpg" alt="Iscas Artificiais">
+        <h3><a href="isca.html">Iscas Artificiais</a></h3>
+        <p>Variedade de cores e modelos para todos os peixes.</p>
+      </div>
+      <div class="product-card">
+        <img src="caixas/caixa preta.jpg" alt="Caixa de Pesca">
+        <h3><a href="caixapesca.html">Caixa de Pesca</a></h3>
+        <p>Organização e praticidade em cada pescaria.</p>
+      </div>
+      <div class="product-card">
+        <img src="molinetes/molinete preto.jpg" alt="Molinetes">
+        <h3><a href="molinete.html">Molinetes</a></h3>
+        <p>Durabilidade e leveza para arremessos precisos.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025  Fisher Mania - Todos os direitos reservados.
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>

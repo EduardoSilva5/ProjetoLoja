@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: #efff0a;
+}
+
+.container{
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.container .product{
+    background: #fafafa;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.container .product .image{
+    width: 300px;
+    height: 150px;
+    margin: auto;
+}
+
+.container .product .image .product-image{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: 0.8s linear;
+}
+
+.container .product .title{
+    font-size: 22px;
+    text-align: center;
+}
+
+.container .product .detail{
+    text-align: center;
+}
+
+.container .product .detail p{
+    margin: 15px;
+    font-size: 25px;
+}
+
+.container .product .detail p span{
+    color: #db1b1b;
+}
+
+.container .product .detail a{
+    text-decoration: none;
+    background: #7dff03;
+    padding: 8px 45px;
+    border-radius: 8px;
+    color: white;
+    margin: 15px;
+}
+
+.container .product .back h3{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.container .product .back h3 a {
+    color: inherit;
+    text-decoration: none;
+}
+  
+.container .product .back h3 a:hover {
+  text-decoration: underline;
+}
